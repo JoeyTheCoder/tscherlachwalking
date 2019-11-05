@@ -9,6 +9,8 @@ import { HomeViewComponent } from './home/home-view/home-view.component';
 import {NavbarComponent} from "./shared/navbar/navbar.component";
 import {FooterComponent} from "./shared/footer/footer.component";
 import {AngularFontAwesomeModule} from "angular-font-awesome";
+import { SignupComponent } from './signup/signup/signup.component';
+import { SignupViewComponent } from './signup/signup-view/signup-view.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import {AngularFontAwesomeModule} from "angular-font-awesome";
     HomeComponent,
     HomeViewComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    SignupComponent,
+    SignupViewComponent
   ],
   imports: [
     BrowserModule,
