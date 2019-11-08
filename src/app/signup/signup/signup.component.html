@@ -1,1 +1,64 @@
-<p>signup works!</p>
+<div id="wrapper">
+  <header id="header" class="alt">
+    <h1>Anmeldung</h1>
+  </header>
+  <!-- Main -->
+  <div id="main">
+
+    <!-- Introduction -->
+    <section id="intro" class="main">
+      <div class="spotlight">
+        <div class="content">
+          <div class="form">
+            <div class="tab-content">
+              <div id="signup">
+                <h1>Sign Up for Free</h1>
+
+                <!-- Default form register -->
+                <form class="text-center border border-light p-5" action="#!">
+
+                  <p class="h4 mb-4">Sign up</p>
+
+                  <div class="form-row mb-4">
+                    <div class="col">
+                      <!-- First name -->
+                      <input type="text" id="defaultRegisterFormFirstName" class="form-control"
+                             placeholder="First name">
+                    </div>
+                    <div class="col">
+                      <!-- Last name -->
+                      <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+                    </div>
+                  </div>
+
+                  <!-- E-mail -->
+                  <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+                  <textarea name="career[message]" class="form-control" tabindex="4" placeholder="Nachricht" required></textarea>
+                  <br>
+                  <div class="radio">
+                  <input type="radio" id="jogging" class="align-center" name="Zahlmethode" value="Mastercard">
+                  <label for="jogging">Jogging</label>
+                  <br>
+                  <input type="radio" id="nordicwalking" class="align-center" name="Zahlmethode" value="Visa">
+                  <label for="nordicwalking">Nordic Walking</label>
+                </div>
+                  <!-- Sign up button -->
+                  <button class="btn btn-info my-4 btn-block" type="submit" name="AnmeldeButton">Anmelden</button>
+
+                </form>
+                <!-- Default form register -->
+                <h2 class="align-center">Vielen Dank für Ihre Anmeldung!</h2>
+              </div>
+            </div><!-- tab-content -->
+
+          </div> <!-- /form -->
+        </div>
+      </div>
+    </section>
+    <footer id="signupFooter">
+      <section>
+        <p></p>
+      </section>
+    </footer>
+  </div>
+</div>

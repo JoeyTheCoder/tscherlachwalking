@@ -102,10 +102,10 @@ html {
 
 body {
   background-color:     #4b9f14    ;
-  background-image: url("./assets/images/overlay.png"), -moz-linear-gradient(45deg,  #93f056  15%,     #307602     85%);
-  background-image: url("./assets/images/overlay.png"), -webkit-linear-gradient(45deg,  #93f056  15%,     #307602     85%);
-  background-image: url("./assets/images/overlay.png"), -ms-linear-gradient(45deg,  #93f056  15%,     #307602     85%);
-  background-image: url("./assets/images/overlay.png"), linear-gradient(45deg,  #93f056  15%,     #307602     85%);
+  background-image: url("./assets/images/overlay.png"), -moz-linear-gradient(45deg,  #05f042  15%,     #246a15     85%);
+  background-image: url("./assets/images/overlay.png"), -webkit-linear-gradient(45deg,  #05f042  15%,     #246a15     85%);
+  background-image: url("./assets/images/overlay.png"), -ms-linear-gradient(45deg,  #05f042  15%,     #246a15     85%);
+  background-image: url("./assets/images/overlay.png"), linear-gradient(45deg,  #05f042  15%,     #246a15     85%);
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
